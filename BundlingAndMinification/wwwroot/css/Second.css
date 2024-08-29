@@ -1,0 +1,28 @@
+﻿body {
+}
+
+/* Parent div styling */
+div {
+    font-family: Arial, sans-serif; /* Sets the font for the text */
+    background-color: #f0f0f0; /* Light grey background color */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 20px; /* Adds padding inside the div */
+    margin: 20px; /* Adds margin outside the div */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    color: #333; /* Dark grey text color */
+}
+
+/* Child div styling */
+div > div {
+    margin-top: 10px; /* Adds space above the child div */
+    padding: 15px; /* Adds padding inside the child div */
+    background-color: #ffffff; /* White background for the child div */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Lighter shadow effect */
+    color: #555; /* Slightly lighter grey text color */
+    font-size: 14px; /* Smaller font size */
+    line-height: 1.6; /* Improved line height for readability */
+
+}

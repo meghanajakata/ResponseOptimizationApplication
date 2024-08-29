@@ -1,0 +1,23 @@
+[
+  {
+    "outputFileName": "wwwroot/js/MySite.min.js",
+    "inputFiles": [
+      "wwwroot/js/site.js",
+      "wwwroot/js/Index.js"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/css/MySite.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css",
+      "wwwroot/css/Second.css",
+      "wwwroot/css/Index.css"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  }
+]
